@@ -1,0 +1,9 @@
+doctype html
+html
+  head prefix="og: http://ogp.me/ns# fb: http://ogp.me/ns/fb#"
+    meta charaset="UTF-8"
+    meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui, user-scalable=no"
+    = csrf_meta_tag
+  body
+    .wrapper
+      = yield
