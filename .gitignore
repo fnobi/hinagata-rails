@@ -18,3 +18,8 @@
 /log/*
 !/log/.keep
 /tmp
+
+# Ignore local config files.
+config/settings.local.yml
+config/settings/*.local.yml
+config/environments/*.local.yml
