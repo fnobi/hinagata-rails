@@ -1,5 +1,7 @@
 Rails.application.routes.draw do
-  
-  root 'site#top'
+
+  scope :module => :site do
+    root to: 'top#index'
+  end
 
 end
