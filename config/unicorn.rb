@@ -1,5 +1,5 @@
 # set port number
-listen 80
+listen File.expand_path('../../tmp/sockets/unicorn.sock', __FILE__)
 
 # set pid file path
 pid File.expand_path('../../tmp/pids/unicorn.pid', __FILE__)
