@@ -14,6 +14,8 @@ gem 'therubyracer', platforms: :ruby
 # Use slim template
 gem 'slim-rails'
 
+gem 'dotenv'
+
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
 # Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
