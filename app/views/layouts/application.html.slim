@@ -5,6 +5,8 @@ html
     meta name="viewport" content="width=device-width, initial-scale=1, minimal-ui, user-scalable=no"
     = display_meta_tags default_meta_tags
     = csrf_meta_tag
+    = stylesheet_link_tag 'application', media: 'all'
   body
     .wrapper
       = yield
+    = javascript_include_tag 'application'
