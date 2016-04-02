@@ -14,7 +14,7 @@ gem 'therubyracer', platforms: :ruby
 # Use slim template
 gem 'slim-rails'
 
-gem 'dotenv'
+gem 'dotenv-rails', :groups => [:development, :test]
 
 # Use jquery as the JavaScript library
 gem 'jquery-rails'
