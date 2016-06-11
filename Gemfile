@@ -1,50 +1,28 @@
 source 'https://rubygems.org'
 
+group :default do
+  gem 'rails', '4.2.5'
+  gem 'mysql2'
+  
+  gem 'config'
 
-# Bundle edge Rails instead: gem 'rails', github: 'rails/rails'
-gem 'rails', '4.2.5'
-# Use mysql2 as the database for Active Record
-gem 'mysql2'
-# Use SCSS for stylesheets
-gem 'sass-rails', '~> 5.0'
-# Use Uglifier as compressor for JavaScript assets
-gem 'uglifier', '>= 1.3.0'
-# See https://github.com/rails/execjs#readme for more supported runtimes
-gem 'therubyracer', platforms: :ruby
-# Use slim template
-gem 'slim-rails'
-
-gem 'dotenv-rails', :groups => [:development, :test]
-
-# Use jquery as the JavaScript library
-gem 'jquery-rails'
-# Build JSON APIs with ease. Read more: https://github.com/rails/jbuilder
-gem 'jbuilder', '~> 2.0'
-# bundle exec rake doc:rails generates the API under doc/api.
-gem 'sdoc', '~> 0.4.0', group: :doc
-
-# Manage env config
-gem 'config'
-
-# Manage meta tags
-gem 'meta-tags'
-
-# Use ActiveModel has_secure_password
-# gem 'bcrypt', '~> 3.1.7'
-
-# Use Unicorn as the app server
-# gem 'unicorn'
-
-# Use Capistrano for deployment
-# gem 'capistrano-rails', group: :development
+  gem 'meta-tags'
+  gem 'sass-rails', '~> 5.0'
+  gem 'slim-rails'
+  gem 'browserify-rails'
+  gem 'sass-globbing'
+  gem 'autoprefixer-rails'
+  
+  gem 'jbuilder', '~> 2.0'
+  gem 'sdoc', '~> 0.4.0', group: :doc
+end
 
 group :development, :test do
-  # Call 'byebug' anywhere in the code to stop execution and get a debugger console
   gem 'byebug'
+  gem 'dotenv-rails'
 end
 
 group :development do
-  # Access an IRB console on exception pages or by using <%= console %> in views
   gem 'web-console', '~> 2.0'
 end
 
