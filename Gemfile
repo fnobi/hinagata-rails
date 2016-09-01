@@ -9,6 +9,7 @@ group :default do
   gem 'meta-tags'
   gem 'sass-rails', '~> 5.0'
   gem 'slim-rails'
+  gem 'browserify-rails'
   gem 'sass-globbing'
   gem 'autoprefixer-rails'
   
