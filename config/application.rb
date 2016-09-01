@@ -26,6 +26,7 @@ module RiotRailsDemo
     config.active_record.raise_in_transactional_callbacks = true
 
     # browserify options
+    config.browserify_rails.use_browserifyinc = true
     config.browserify_rails.commandline_options = '-t [ babelify --presets [ es2015 ] ]'
 
     config.generators do |g|
