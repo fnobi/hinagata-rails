@@ -12,6 +12,8 @@ group :default do
   gem 'browserify-rails'
   gem 'sass-globbing'
   gem 'autoprefixer-rails'
+
+  gem 'react-rails', '~> 1.6.0'
   
   gem 'uglifier', '>= 1.3.0'
   gem 'therubyracer', platforms: :ruby
