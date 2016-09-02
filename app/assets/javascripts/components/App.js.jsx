@@ -1,11 +1,7 @@
-export default class App extends React.Component {
-    constructor (props)  {
-        super(props);
-    }
-    
+export default React.createClass({
     render () {
         return (
             <div>hello react app!</div>
         );
     }
-};
+});
