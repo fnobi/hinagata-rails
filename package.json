@@ -5,10 +5,13 @@
     "start": "port=12345; PORT=$port ./bin/rails s -b 0.0.0.0 & browser-sync start --proxy localhost:$port --files 'app/**/*'"
   },
   "dependencies": {
+    "babel-plugin-transform-runtime": "^6.23.0",
     "babel-preset-es2015": "6.6.*",
     "babelify": "7.2.*",
     "browserify": "13.0.*",
-    "browserify-incremental": "3.1.*"
+    "browserify-incremental": "3.1.*",
+    "vue": "^2.2.4",
+    "vueify": "^9.4.1"
   },
   "devDependencies": {
     "browser-sync": "^2.18.8"
