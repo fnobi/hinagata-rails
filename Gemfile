@@ -1,7 +1,7 @@
 source 'https://rubygems.org'
 
 group :default do
-  gem 'rails', '4.2.5'
+  gem 'rails', '5.0.1'
   gem 'mysql2'
   
   gem 'config'
