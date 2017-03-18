@@ -25,6 +25,9 @@ module HinagataRails
     # Do not swallow errors in after_commit/after_rollback callbacks.
     config.active_record.raise_in_transactional_callbacks = true
 
+    # for import npm module files from scss
+    config.assets.paths << config.root.join("node_modules")
+
     # browserify options
     config.browserify_rails.use_browserifyinc = true
     config.browserify_rails.commandline_options = '-t [ babelify --presets [ es2015 ] ]'
